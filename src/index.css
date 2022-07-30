@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wrapper .main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.wrapper .form-container {
+  width: 600px;
+  height: 450px;
+  background-color: lightgray;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.wrapper .main .form-container .form-group h5 {
+  text-decoration: underline;
+}
+
+.wrapper .main .form-container .form-group .container{
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  margin: 0px;
+}
+
+.wrapper .main .form-container .form-group .container div{
+  display: flex;
+  flex-direction: column;
+  line-height: 38px;
+  margin-left: 0%;
+}
+
+.wrapper .main .form-container .form-group .container2 {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.wrapper .main .form-container .form-group .container div input,
+.wrapper .main .form-container .form-group .container div #payment_mode {
+  margin-left: 40px;
+}
+
+#payment_mode {
+  padding: 5px;
+  width: 350px;
+  background-color: rgb(236, 231, 231);
+  border-radius: 10px;
+  border-color: darkgray;
+}
+
+.wrapper .main .form-container .form-group div input {
+  background-color: rgb(236, 231, 231);
+  width: 350px;
+  margin-right: 0px;
+  border-radius: 10px;
+  border-color: darkgray;
+}
+
+.wrapper .form-container .btn {
+  margin: auto;
+}
+
+.wrapper .form-container .btn-default {
+  border: 1px solid red;
+  color: red;
+}
+
+.wrapper .view-container {
+  width: 600px;
+  background-color: lightgrey;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .main .form-container .form-group div label.required::after {
+  content: "*";
+  font-weight: bold;
+  color: red;
+}
+
+tbody {
+  margin-top: 25px;
+}
